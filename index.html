@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+
+    <div class="container">
+      <div class="card">
+        <div class="star-container">
+          <img src="./images/icon-star.svg" alt="start image" class="start" />
+        </div>
+
+        <h1 class="main__header">How did we do?</h1>
+        <p class="main__pragraph">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <div class="rating-container">
+          <!-- rating start-->
+          <input
+            type="radio"
+            name="radion-btn"
+            id="rating-no-1"
+            class="radio__input"
+          />
+          <label for="rating-no-1" class="radio__label">1</label>
+          <!--  rating end -->
+
+          <!-- rating start-->
+          <input
+            type="radio"
+            name="radion-btn"
+            id="rating-no-2"
+            class="radio__input"
+          />
+          <label for="rating-no-2" class="radio__label">2</label>
+          <!--  rating end -->
+
+          <!-- rating start-->
+          <input
+            type="radio"
+            name="radion-btn"
+            id="rating-no-3"
+            class="radio__input"
+          />
+          <label for="rating-no-3" class="radio__label">3</label>
+          <!--  rating end -->
+
+          <!-- rating start-->
+          <input
+            type="radio"
+            name="radion-btn"
+            id="rating-no-4"
+            class="radio__input"
+          />
+          <label for="rating-no-4" class="radio__label">4</label>
+          <!--  rating end -->
+
+          <!-- rating start-->
+          <input
+            type="radio"
+            name="radion-btn"
+            id="rating-no-5"
+            class="radio__input"
+          />
+          <label for="rating-no-5" class="radio__label">5</label>
+          <!--  rating end -->
+        </div>
+        <button class="btn">Submit</button>
+      </div>
+
+      <footer class="footer">
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            class="mohsin"
+            href="https://www.frontendmentor.io/profile/mobasher10"
+            target="_blank"
+            >Mohsin Bashir</a
+          >.
+        </div>
+      </footer>
+    </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="container__thanks">
+      <div class="thank__image-container">
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="illustration-thank-you"
+          class="thank__image"
+        />
+      </div>
+
+      <p class="selected__element">You selected 5 out of 5</p>
+
+      <!-- Add rating here -->
+      <p class="thankyou">Thank you!</p>
+      <p class="text">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+
+      <a href="./index.html" class="go-back">go back home page &larr;</a>
+    </div>
+
+    <!-- Thank you state end -->
+  </body>
+</html>
