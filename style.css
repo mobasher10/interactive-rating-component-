@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ a {
 }
 .card {
   background-color: var(--Dark-Blue);
-  width: 50rem;
+  width: 40rem;
   height: 50rem;
   display: flex;
   justify-content: center;
@@ -74,7 +74,7 @@ a {
   font-size: 2rem;
   background-color: var(--Orange);
   padding: 1.5rem 3rem;
-  border-radius: 30rem;
+  border-radius: 20rem;
   width: 100%;
   outline: none;
   border: none;
@@ -152,8 +152,8 @@ a {
   color: var(--Light-Grey);
   background-color: hsl(215, 15%, 28%);
   padding: 2rem;
-  height: 6rem;
-  width: 6rem;
+  height: 5rem;
+  width: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,7 +177,7 @@ a {
   color: var(--Light-Grey);
   font-size: 2rem;
   text-align: center;
-  margin-top: 10rem;
+  /* margin-bottom: 10rem; */
 }
 
 .mohsin {
